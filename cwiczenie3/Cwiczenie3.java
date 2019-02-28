@@ -16,6 +16,8 @@ public class Cwiczenie3 {
 		System.out.println("Roznica liczb to " +roznica);
 		int iloczyn=mnozenie(liczba,liczba2);
 		System.out.println("Iloczyn dwóch liczb to " + iloczyn);
+		double iloraz=dzielenie(liczba,liczba2);
+		System.out.println("Iloraz dwóch liczb to " + iloraz);
 	}
 	public static int dodaj(int a, int b)
 	{
@@ -28,5 +30,9 @@ public class Cwiczenie3 {
 	public static int mnozenie(int a, int b)
 	{
 		return a*b;
+	}
+	public static double dzielenie(int a, int b)
+	{
+		return a/b;
 	}
 }
