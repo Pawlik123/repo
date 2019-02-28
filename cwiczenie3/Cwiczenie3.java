@@ -12,10 +12,15 @@ public class Cwiczenie3 {
 		int liczba2=in.nextInt();
 		int suma = dodaj(liczba,liczba2);
 		System.out.println("Suma dwóch liczb to " + suma);
+		int roznica=odejmij(liczba,liczba2);
+		System.out.println("Roznica liczb to " +roznica);
 	}
 	public static int dodaj(int a, int b)
 	{
 		return a+b;
 	}
-
+	public static int odejmij(int a, int b)
+	{
+		return a-b;
+	}
 }
