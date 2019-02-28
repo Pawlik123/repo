@@ -10,6 +10,12 @@ public class Cwiczenie3 {
 		int liczba=in.nextInt();
 		System.out.println ("Podaj liczbê B");
 		int liczba2=in.nextInt();
+		int suma = dodaj(liczba,liczba2);
+		System.out.println("Suma dwóch liczb to " + suma);
+	}
+	public static int dodaj(int a, int b)
+	{
+		return a+b;
 	}
 
 }
