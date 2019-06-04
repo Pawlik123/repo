@@ -22,7 +22,15 @@ public class Æwiczenie7 {
 		{
 			System.out.println("Twoje imie ma mniej ni¿ liter"+name.length());
 		}
+		int tf3ab[]=new int[10];
+		for (int a=0; a<10; a++)
+		{
+		tf3ab[a]=a+1;
+		}
+		for(int a: tf3ab)
+		{
+			System.out.println(a);
+		}
+		
 	}
-	
-
 }
