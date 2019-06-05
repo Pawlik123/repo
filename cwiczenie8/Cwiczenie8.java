@@ -33,6 +33,16 @@ public class Cwiczenie8 {
 		{
 			System.out.println("Imiê jest równe nazwisku");
 		}
+		    
+			int tabbb[]=new int[10];
+			for (int r=1; r<10;r++)
+			{
+				 tabbb[r]=r*2;
+			}
+			for (int x: tabbb)
+			{
+				System.out.println(x);
+			}
 		
 	}
 
