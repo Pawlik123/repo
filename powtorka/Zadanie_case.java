@@ -17,8 +17,10 @@ public class Zadanie_case {
 		case 10:
 		case 12:
 		System.out.println("Ten mc ma 31 dni");
+//		break;
 		case 2:
 		System.out.println("Ten miesi¹c ma 28 dni");
+	//	break;
 		default:
 		System.out.println("Ten miesi¹c ma 30 dni");
 
