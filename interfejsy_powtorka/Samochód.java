@@ -3,7 +3,7 @@ package interfejsy_powtorka;
 public class Samochód implements Pojazd {
 	public void jazda(int v)
 	{
-		System.out.println("Jedziesz z predkoscia +v+ km");
+		System.out.println("Jedziesz z predkoscia " + v + " km");
 	}
 	public void stop()
 	{

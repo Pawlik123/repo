@@ -7,6 +7,9 @@ public class Wykonanie {
 		eela.jazda(60);
 		eela.stop();
 		eela.drift(80);
+		Bike ee=new Bike();
+		ee.jazda(20);
+		ee.stop();
 	}
 
 }
