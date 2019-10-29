@@ -5,10 +5,12 @@ public class Zadanie_foreach {
 		String[] imie={"Marcin","Kasia", "Andrzej"};
 		for (int i=0; i<imie.length; i++){
 			String name=imie[i];
-			System.out.println(imie);
+			System.out.println(name);
 		}
-		for( int : imie);
+		for( String x : imie)
+		{
 		System.out.println(x);
 	}
 
+}
 }
